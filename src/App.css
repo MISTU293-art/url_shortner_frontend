@@ -1,0 +1,14 @@
+/* App container styles */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+.hover-primary:hover {
+  color: var(--accent-primary) !important;
+}
